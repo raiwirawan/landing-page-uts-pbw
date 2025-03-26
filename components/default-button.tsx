@@ -1,7 +1,7 @@
 import { cn } from "@/lib/utils";
 import Link from "next/link";
 
-type DefaultButtonProps = {
+export type DefaultButtonProps = {
 	text: string;
 	href: string;
 } & React.AnchorHTMLAttributes<HTMLAnchorElement>;

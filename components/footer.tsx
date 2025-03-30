@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Card from "./card";
-import footerList from "@/data/footer-list";
-import footerSocialMediaIcons from "@/data/footer-social-media-icons";
+import { footerList, footerSocialMediaIcons } from "@/data/footer";
 
 export default function Footer() {
 	return (

@@ -1,11 +1,12 @@
 import Image from "next/image";
 import Card from "./card";
 import footerList from "@/data/footer-list";
+import footerSocialMediaIcons from "@/data/footer-social-media-icons";
 
 export default function Footer() {
 	return (
 		<footer id="footer" className="bg-white">
-			<div className="container mx-auto py-10 w-full flex justify-between">
+			<div className="container mx-auto py-15 w-full flex justify-between">
 				<div className="flex flex-col items-start justify-start">
 					<div className="mb-10">
 						<Image
@@ -47,6 +48,22 @@ export default function Footer() {
 									</div>
 								))}
 							/>
+						))}
+					</div>
+					<div className="flex flex-row items-end justify-end mt-auto">
+						{footerSocialMediaIcons.map((icon, index) => (
+							<div key={index} className="w-8 h-8 relative mx-1">
+								<Image
+									key={index}
+									src={icon.src}
+									alt={icon.alt}
+									fill={true}
+									style={{
+										objectFit: "cover",
+										objectPosition: "center",
+									}}
+								/>
+							</div>
 						))}
 					</div>
 				</div>

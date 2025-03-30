@@ -1,27 +1,45 @@
 import Image from "next/image";
+import { cn } from "@/lib/utils";
 import DefaultButton from "./default-button";
 
-export default function HeroSection() {
+export type HeroSectionProps = {
+	headingText: string | React.ReactNode;
+	imageSrc: string;
+	paragraphText: string;
+	buttonClassName?: string;
+	imageContainerClassName?: string;
+};
+
+export default function HeroSection({
+	headingText,
+	imageSrc,
+	paragraphText,
+	buttonClassName,
+	imageContainerClassName,
+}: HeroSectionProps) {
 	return (
 		<section id="hero-section" className=" bg-[#F7F5FD]">
 			<div className="container mx-auto w-full flex flex-row items-center justify-between px-4 py-16">
 				<div className="flex-1/2">
-					<h1 className="text-8xl font-semibold text-black">
-						Pet Store
-						<div>& Beyond</div>
-					</h1>
-					<p className="mt-10 text-lg text-gray-500">
-						Bawa anjingmu ke sini tanpa khawatir stress dan waktu untuk merawat
-						anjing! Mudah banget kan?
-					</p>
-					<DefaultButton text="Yok Lihat" href="#video-section" />
+					<h1 className="text-8xl font-semibold text-black">{headingText}</h1>
+					<p className="mt-10 text-lg text-gray-500">{paragraphText}</p>
+					<DefaultButton
+						text="Yok Lihat"
+						href="#video-section"
+						className={buttonClassName}
+					/>
 				</div>
-				<div className="flex-1/2 flex justify-end items-center">
+				<div
+					className={cn(
+						"flex-1/2 flex justify-end items-center w-[600px] h-[600px] relative",
+						imageContainerClassName
+					)}
+				>
 					<Image
-						src={"/images/anjing.jpg"}
+						src={imageSrc}
 						className="rounded-lg"
-						width={600}
-						height={600}
+						fill={true}
+						style={{ objectFit: "cover", objectPosition: "center" }}
 						alt={"Gambar Anjing"}
 					/>
 				</div>

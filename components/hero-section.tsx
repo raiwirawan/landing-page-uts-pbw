@@ -19,10 +19,14 @@ export default function HeroSection({
 }: HeroSectionProps) {
 	return (
 		<section id="hero-section" className=" bg-[#F7F5FD]">
-			<div className="container mx-auto w-full flex flex-row items-center justify-between px-4 py-16">
-				<div className="flex-1/2">
-					<h1 className="text-8xl font-semibold text-black">{headingText}</h1>
-					<p className="mt-10 text-lg text-gray-500">{paragraphText}</p>
+			<div className="container mx-auto w-full px-4 py-16 grid grid-rows-2 grid-cols-1 gap-y-10 lg:grid-cols-2 lg:grid-rows-1 lg:gap-x-20">
+				<div className="flex flex-col items-center justify-center lg:items-start lg:justify-start">
+					<h1 className="text-6xl lg:text-8xl text-center lg:text-left font-semibold text-black">
+						{headingText}
+					</h1>
+					<p className="mt-10 lg:mt-15 lg:mb-15 text-lg text-center lg:text-left text-gray-500">
+						{paragraphText}
+					</p>
 					<DefaultButton
 						text="Yok Lihat"
 						href="#video-section"
@@ -31,7 +35,7 @@ export default function HeroSection({
 				</div>
 				<div
 					className={cn(
-						"flex-1/2 flex justify-end items-center w-[600px] h-[600px] relative",
+						" flex justify-end items-center relative aspect-square lg:max-w-[600px]",
 						imageContainerClassName
 					)}
 				>
@@ -39,7 +43,10 @@ export default function HeroSection({
 						src={imageSrc}
 						className="rounded-lg"
 						fill={true}
-						style={{ objectFit: "cover", objectPosition: "center" }}
+						style={{
+							objectFit: "cover",
+							objectPosition: "center",
+						}}
 						alt={"Gambar Anjing"}
 					/>
 				</div>

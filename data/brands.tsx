@@ -8,64 +8,27 @@ export type Brand = {
 const brands: Array<Brand> = [
 	{
 		name: "Nestle",
-		logo: (
-			<Image
-				src="/images/brands/Nestle.svg"
-				alt="Nestle"
-				width={100}
-				height={50}
-			/>
-		),
+		logo: <Image src="/images/brands/Nestle.svg" alt="Nestle" fill={true} />,
 	},
 	{
 		name: "Apple",
-		logo: (
-			<Image
-				src="/images/brands/Apple.svg"
-				alt="Apple"
-				width={50}
-				height={50}
-			/>
-		),
+		logo: <Image src="/images/brands/Apple.svg" alt="Apple" fill={true} />,
 	},
 	{
 		name: "Beco",
-		logo: (
-			<Image src="/images/brands/Beco.svg" alt="Beco" width={100} height={50} />
-		),
+		logo: <Image src="/images/brands/Beco.svg" alt="Beco" fill={true} />,
 	},
 	{
 		name: "Amazon",
-		logo: (
-			<Image
-				src="/images/brands/Amazon.svg"
-				alt="Amazon"
-				width={100}
-				height={50}
-			/>
-		),
+		logo: <Image src="/images/brands/Amazon.svg" alt="Amazon" fill={true} />,
 	},
 	{
 		name: "Google",
-		logo: (
-			<Image
-				src="/images/brands/Google.svg"
-				alt="Google"
-				width={100}
-				height={50}
-			/>
-		),
+		logo: <Image src="/images/brands/Google.svg" alt="Google" fill={true} />,
 	},
 	{
 		name: "Walmart",
-		logo: (
-			<Image
-				src="/images/brands/Walmart.svg"
-				alt="Walmart"
-				width={100}
-				height={50}
-			/>
-		),
+		logo: <Image src="/images/brands/Walmart.svg" alt="Walmart" fill={true} />,
 	},
 ];
 

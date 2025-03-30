@@ -16,7 +16,7 @@ export default function DefaultButton({
 		<Link
 			href={href}
 			className={cn(
-				"inline-block mt-16 px-14 py-4 bg-[#FFD700] text-black rounded-lg",
+				"inline-block mt-10 px-14 py-4 bg-[#FFD700] text-black rounded-lg",
 				className
 			)}
 			{...props}

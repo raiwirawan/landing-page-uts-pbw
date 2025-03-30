@@ -26,7 +26,7 @@ export default function Home() {
 						<div>woof!</div>
 					</div>
 				}
-				imageSrc="/images/Emma.jpg"
+				imageSrc="/images/anjing2.jpg"
 				paragraphText="Bawa anjingmu ke sini tanpa khawatir stress dan waktu untuk merawat anjing! Mudah banget kan?"
 			/>
 		</div>

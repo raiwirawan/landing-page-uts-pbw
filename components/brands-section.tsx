@@ -6,7 +6,7 @@ import Card from "./card";
 export default function BrandsSection() {
 	return (
 		<section id="brands-section" className="bg-white">
-			<div className="w-full container mx-auto py-10 flex flex-col items-center justify-center">
+			<div className="w-full container mx-auto px-5 py-10 flex flex-col items-center justify-center">
 				<div className="w-full flex flex-row flex-wrap items-center justify-around mb-20 gap-5 px-5 relative">
 					{brands.map((brand, index) => (
 						<div

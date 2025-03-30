@@ -5,7 +5,7 @@ import { footerList, footerSocialMediaIcons } from "@/data/footer";
 export default function Footer() {
 	return (
 		<footer id="footer" className="bg-white">
-			<div className="container mx-auto px-5 py-15 w-full flex flex-col justify-between">
+			<div className="container mx-auto px-5 xl:px-10 py-15 w-full flex flex-col justify-between">
 				<div className="w-full flex flex-col lg:flex-row justify-between">
 					<div className="flex flex-col items-start justify-start">
 						<div className="mb-10">

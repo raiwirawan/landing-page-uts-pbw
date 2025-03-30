@@ -19,7 +19,7 @@ export default function HeroSection({
 }: HeroSectionProps) {
 	return (
 		<section id="hero-section" className=" bg-[#F7F5FD]">
-			<div className="container mx-auto w-full px-4 py-16 grid grid-rows-2 grid-cols-1 gap-y-10 lg:grid-cols-2 lg:grid-rows-1 lg:gap-x-20">
+			<div className="container mx-auto w-full px-5 xl:px-10 py-16 grid grid-rows-2 grid-cols-1 gap-y-10 lg:grid-cols-2 lg:grid-rows-1 lg:gap-x-20">
 				<div className="flex flex-col items-center justify-center lg:items-start lg:justify-start">
 					<h1 className="text-6xl lg:text-8xl text-center lg:text-left font-semibold text-black">
 						{headingText}

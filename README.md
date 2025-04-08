@@ -1,36 +1,71 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 PROYEK LANDING PAGE UTS MATA KULIAH PEMROGRAMAN BERBASIS WEB
 
-## Getting Started
+## 📝 Deskripsi Proyek
 
-First, run the development server:
+Landing page yang berisi tentang Pet Store atau toko yang menjual alat-alat untuk hewan peliharaan.
+
+## 🎥 Demonstrasi Proyek
+
+[![Demo Proyek](public/images/thumbnail-anjing.jpg)](https://rai-responsive.vercel.app)
+
+## 🛠 Arsitektur
+
+- Component-Based (Functional Component)
+
+## 🚀 Pertama-tama
+
+### Yang dibutuhkan
+
+- [Git](https://git-scm.com/)
+- [Node JS v22](https://nodejs.org/)
+- [Visual Studio Code](https://code.visualstudio.com/)
+
+### Instalasi
+
+1. Clone repository ini
+
+```bash
+git clone https://github.com/raiwirawan/landing-page-uts-pbw.git
+```
+
+2. Pergi ke direktori proyek
+
+```bash
+cd landing-page-uts-pbw
+```
+
+3. Instal semua dependensi yang dibutuhkan
+
+```bash
+npm install
+```
+
+4. Checkout ke branch `final`
+
+```bash
+git checkout final
+```
+
+5. Jalankan aplikasi
+
+```bash
+npx next dev
+```
+
+or
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🤝 Contributing
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. Fork repository ini
+2. Buat branch fitur baru (git checkout -b feature/YourFeature)
+3. Commit perubahan (git commit -m 'Add some feature')
+4. Push ke branch (git push origin feature/YourFeature)
+5. Buka pull request
+6. Tunggu review dari pemilik repository
+7. Merge pull request
+8. Hapus branch yang sudah di-merge
+9. Berikan bintang ⭐ pada repository ini jika kamu suka

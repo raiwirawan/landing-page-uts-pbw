@@ -4,9 +4,13 @@
 
 Landing page yang berisi tentang Pet Store atau toko yang menjual alat-alat untuk hewan peliharaan.
 
+## Link Proyek
+
+- [https://rai-uts-smt4.vercel.app/](https://rai-uts-smt4.vercel.app/)
+
 ## 🎥 Demonstrasi Proyek
 
-[![Demo Proyek](public/images/thumbnail-anjing.jpg)](https://rai-responsive.vercel.app)
+[![Demo Proyek](public/images/rai-uts-smt4.vercel.app.png)](https://rai-uts-smt4.vercel.app/)
 
 ## 🛠 Arsitektur
 
@@ -14,8 +18,11 @@ Landing page yang berisi tentang Pet Store atau toko yang menjual alat-alat untu
 
 ## 🚀 Pertama-tama
 
-### Yang dibutuhkan
+### Teknologi yang Digunakan
 
+- [React JS](https://reactjs.org/)
+- [Next JS](https://nextjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
 - [Git](https://git-scm.com/)
 - [Node JS v22](https://nodejs.org/)
 - [Visual Studio Code](https://code.visualstudio.com/)
